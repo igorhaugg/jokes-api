@@ -1,0 +1,26 @@
+.item__header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.item__header:first-child {
+  flex-basis: 10%;
+}
+
+.item__header:not(:first-child) {
+  flex-basis: 30%;
+}
+
+.image__group {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.item__header img {
+  cursor: pointer;
+  transform: scale(0.6);
+}

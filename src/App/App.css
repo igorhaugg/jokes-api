@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+}
+
+.app__logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 8rem;
+}
+
+.app__header {
+  background-color: #222;
+  height: 6rem;
+  padding: 2rem;
+  color: white;
+}
+
+.app__title {
+  font-size: 2em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  align-items: center;
+  background: linear-gradient(45deg, #4158d0, #c850c0);
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 6rem);
+}
+
+.search__input {
+  border: 1px solid rgba(120, 120, 120, 0.6);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  outline: none;
+  width: 90%;
+}
+
+.results-message {
+  color: white;
+  padding-top: 1rem;
+  text-align: left;
+}
